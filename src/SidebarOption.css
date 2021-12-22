@@ -1,0 +1,46 @@
+.sidebarOption {
+    display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+
+}
+.sidebarOption > .MuiSvgIcon-root{
+    padding: 20px;
+    float: right;
+    
+}
+.sidebarOption:hover{
+    border-radius: 80px;
+    color: var(--twitter-color);
+    transition: color 100ms ease-out;
+}
+.sidebarOption > h2{
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.sidebarOption--active{
+    color: var(--twitter-color);
+}
+.MuiSvgIcon-root {
+    fill: currentColor;
+    float: right;
+    width: 1em;
+    height: 1em;    
+}
+
+.sidebarOption > .MuiSvgIcon-root {
+    padding: 20px;
+    float: right;
+    position: relative;
+    top: -40px;
+}
+
+.sidebarOption > h2 {
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
+    top: -38px;
+    position: relative;
+}

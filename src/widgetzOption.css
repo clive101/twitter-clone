@@ -1,0 +1,61 @@
+.widgetzOption {
+    display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+    background-color:whitesmoke;
+}
+
+.widgetzOption:hover{
+    background-color:lightgray;
+    border-radius: none;
+    color: gray;
+    
+}
+.widgetzOption > h2{
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.widgetzOption--active{
+    color: var(--twitter-color);
+}
+.widgetzOption:hover{
+    background-color:pink;
+    border-radius: 30px;
+    color: pink;
+    transition: color 100ms ease-out;
+}
+
+.widgetzOption > .MuiSvgIcon-root {
+    padding: 20px;
+    float: right;
+    position: relative;
+    top: -40px;
+}
+
+.MuiSvgIcon-root {
+    fill: currentColor;
+    float: right;
+    width: 1em;
+    height: 1em;    
+}
+
+.widgetzOption > .MuiSvgIcon-root {
+    padding: 20px;
+    float: right;
+    position: absolute;
+    top: -40px;
+}
+
+.widgetzOption__input{
+    padding: 20px;
+    display: flex;
+}
+
+.widgetzOption__input > input{
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+}
